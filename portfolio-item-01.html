@@ -42,8 +42,7 @@
 	
     <!-- SCRIPTS -->
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+    <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/jquery.fitvids.js"></script>
     <script>
     	$(function() { $(".portfolio-single").fitVids(); })
@@ -64,24 +63,26 @@
 			
 			<!-- TITLE - column 8/12 -->
             <div class="span8 portfolio-field portfolio-title">
-            	<h2>Character Sketchs</h2>
+            	<h2>Wringting/字迹美化</h2>
             </div>
             <!-- TITLE - column 8/12 -->
             
 			
 			<!-- PORTFOLIO-NAV - column 4/12 -->
             <div class="span4 portfolio-field portfolio-nav">
-                <a class="icon button prev ajax" href="portfolio-item-03.html"></a>
-                <a class="icon button back" href="#/portfolio">close</a>
-                <a class="icon button next ajax" href="portfolio-item-02.html"></a>
+                <!-- <a class="icon button prev ajax" href="portfolio-item-03.html"></a> -->
+                <a class="icon button back" href="#/portfolio">关闭</a>
+                <!-- <a class="icon button next ajax" href="portfolio-item-02.html"></a> -->
             </div>
 			<!-- PORTFOLIO-NAV - column 4/12 -->
             
             
 			<!-- PORTFOLIO-IMAGES - column 8/12 -->
             <div class="span8 portfolio-field">
-                <img src="images/portfolio/single/single-02.jpg" alt="project">
-                <img src="images/portfolio/single/single-05.jpg" alt="project">
+                <img src="images/portfolio/single/char1.jpg" alt="project">
+                <img src="images/portfolio/single/char_animation.gif" alt="project">
+                <img src="images/portfolio/single/char2.jpg" alt="project">
+                <img src="images/portfolio/single/chars.png" alt="project">
             </div>
 			<!-- PORTFOLIO-IMAGES - column 8/12 -->
             
@@ -89,34 +90,26 @@
 			<!-- PORTFOLIO SIDEBAR - column 4/12 -->
             <div class="span4 portfolio-field">
 				
-                <h3>Description</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
-                <p>Established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters. </p>
-                
-                <h3>Client</h3>
-                <p>Apple Inc.</p>
-                
-                <h3>Technology</h3>
+                <h3>介绍</h3>
+                <p>这个项目是我研二上学期主要的项目，项目的出发点是研究连笔字书写。通过采集书法家的写字过程，获得xml数据，包括坐标、时间、压力等信息。然后项目初期主要是连笔字的练习和展示。练习部分是用户自己在网页上书写连笔字，展示是将书法家的点数据给形象化出来。如右图所示的就是最后的展示结果。项目还需要做的是，字迹的美化和评判。需要涉及到一些算法的知识，也是我现在研二下学期需要研究的内容。</p>
+                <p>整个项目是使用原生Javascript写出来的，项目的功能封装的很完整，API设计尽量简单易用。而且程序将功能的实现和界面分离出来，方便设计人员在不懂代码的情况下操作。</p>
+                <h3>用到的技术</h3>
                 <ul class="tags">
+                    <li><a>Javascript</a></li>
                     <li><a>HTML 5</a></li>
-                    <li><a>CSS 3</a></li>
-                    <li><a>jQuery</a></li>
-                    <li><a>Responsive Design</a></li>
+                    <li><a>Canvas</a></li>
                 </ul>
                 
-                <div class="launch">
-                	<a href="#" class="btn">LAUNCH PROJECT</a>
-                </div>
                 
             </div>
 			<!-- PORTFOLIO SIDEBAR - column 4/12 -->
             
             <!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
-            <div class="span12 portfolio-field portfolio-nav bottom">
+            <!-- <div class="span12 portfolio-field portfolio-nav bottom">
                 <a class="icon button prev ajax" href="portfolio-item-03.html"></a>
-                <a class="icon button back" href="#/portfolio">close</a>
+                <a class="icon button back" href="#/portfolio">关闭</a>
                 <a class="icon button next ajax" href="portfolio-item-02.html"></a>
-            </div>
+            </div> -->
 			<!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
                 
             <!-- InstanceEndEditable -->
